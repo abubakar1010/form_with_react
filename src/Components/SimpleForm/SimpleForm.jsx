@@ -11,8 +11,10 @@ const SimpleForm = () => {
         e.preventDefault()
     }
     return (
-        <div className=" my-28" >
+        <div className=" my-12" >
             <form onSubmit={handleSubmit} className=" text-center flex flex-col items-center gap-6 ">
+
+            <h1 className=" text-2xl font-medium py-3">Control Form with name attribute</h1>
 
                 <input type="text" name="name" id="1" placeholder="Your Name" className="border-2 border-purple-500 px-4 py-2 rounded-lg" />
                 <input type="email" name="email" id="2"  placeholder="Your Email" className="border-2 border-purple-500 px-4 py-2 rounded-lg" />
