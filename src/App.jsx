@@ -1,12 +1,12 @@
 
-import './App.css'
+import SimpleForm from './Components/SimpleForm/SimpleForm.jsx'
 
 function App() {
 
 
   return (
     <>
-    <div className=' font-medium text-4xl'>Project setUp</div>
+    <SimpleForm />
     </>
   )
 }
