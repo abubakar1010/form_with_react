@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 
 const RefForm = () => {
@@ -27,7 +27,7 @@ const RefForm = () => {
         <div className=" my-12" >
             <form onSubmit={handleSubmit} className=" text-center flex flex-col items-center gap-6 ">
 
-            <h1 className=" text-2xl font-medium py-3">Control Form with name attribute</h1>
+            <h1 className=" text-2xl font-medium py-3">Control Form with useRef hook</h1>
 
                 <input ref={nameRef} type="text" name="name" id="1" placeholder="Your Name" className="border-2 border-purple-500 px-4 py-2 rounded-lg" />
                 <input ref={emailRef} type="email" name="email" id="2"  placeholder="Your Email" className="border-2 border-purple-500 px-4 py-2 rounded-lg" />

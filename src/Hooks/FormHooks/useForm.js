@@ -4,8 +4,8 @@ const useForm = (defaultValue = null ) => {
 
     const [value, setValue ] = useState(defaultValue)
 
-    const handleForm = val => setValue(val)
-
+    const handleForm = (e) => {setValue(e.target.value)
+}
     return [value, handleForm]
 }
 
